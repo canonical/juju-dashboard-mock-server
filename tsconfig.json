@@ -1,0 +1,9 @@
+{
+  "extends": "./jaas-dashboard/tsconfig.json",
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "module": "nodenext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "juju-dashboard-mock-server",
+  "devDependencies": {
+    "@types/ip": "1.1.0",
+    "@types/node": "20.2.1",
+    "@types/ws": "8.5.4",
+    "concurrently": "8.0.1",
+    "ip": "1.1.8",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4",
+    "ws": "8.13.0"
+  },
+  "scripts": {
+    "start": "concurrently \"yarn start-dashboard\" \"yarn start-server\"",
+    "start-dashboard": "REACT_APP_MOCK_STORE=$(cat ./mock-store.json) yarn --cwd jaas-dashboard start",
+    "start-server": "ts-node server.ts",
+    "generate-mocks": "ts-node generate-mocks.ts"
+  }
+}

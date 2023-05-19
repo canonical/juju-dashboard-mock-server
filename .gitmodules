@@ -1,0 +1,4 @@
+[submodule "jaas-dashboard"]
+	branch = preload-store
+	path = jaas-dashboard
+	url = git@github.com:huwshimi/jaas-dashboard.git
