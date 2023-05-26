@@ -1,13 +1,13 @@
 import fs from "fs";
 import ip from "ip";
 
-import { jujuStateFactory } from "./jaas-dashboard/src/testing/factories";
+import { jujuStateFactory } from "./juju-dashboard/src/testing/factories";
 import {
   configFactory,
   credentialFactory,
   generalStateFactory,
-} from "./jaas-dashboard/src/testing/factories/general";
-import { modelStatusInfoFactory } from "./jaas-dashboard/src/testing/factories/juju/ClientV6";
+} from "./juju-dashboard/src/testing/factories/general";
+import { modelStatusInfoFactory } from "./juju-dashboard/src/testing/factories/juju/ClientV6";
 import {
   modelDataApplicationFactory,
   modelDataFactory,
@@ -16,7 +16,7 @@ import {
   modelDataStatusFactory,
   modelDataUnitFactory,
   modelListInfoFactory,
-} from "./jaas-dashboard/src/testing/factories/juju/juju";
+} from "./juju-dashboard/src/testing/factories/juju/juju";
 import {
   applicationInfoFactory,
   machineChangeDeltaFactory,
@@ -24,8 +24,8 @@ import {
   modelWatcherModelInfoFactory,
   relationChangeDeltaFactory,
   unitChangeDeltaFactory,
-} from "./jaas-dashboard/src/testing/factories/juju/model-watcher";
-import { rootStateFactory } from "./jaas-dashboard/src/testing/factories/root";
+} from "./juju-dashboard/src/testing/factories/juju/model-watcher";
+import { rootStateFactory } from "./juju-dashboard/src/testing/factories/root";
 
 const OUTPUT = "./mock-store.json";
 

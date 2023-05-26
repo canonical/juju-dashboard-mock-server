@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "concurrently \"yarn start-dashboard\" \"yarn start-server\"",
-    "start-dashboard": "REACT_APP_MOCK_STORE=$(cat ./mock-store.json) yarn --cwd jaas-dashboard start",
+    "start-dashboard": "REACT_APP_MOCK_STORE=$(cat ./mock-store.json) yarn --cwd juju-dashboard start",
     "start-server": "ts-node server.ts",
     "generate-mocks": "ts-node generate-mocks.ts"
   }

@@ -1,4 +1,4 @@
-[submodule "jaas-dashboard"]
-	branch = preload-store
-	path = jaas-dashboard
-	url = git@github.com:huwshimi/jaas-dashboard.git
+[submodule "juju-dashboard"]
+	branch = main
+	path = juju-dashboard
+	url = git@github.com:canonical/juju-dashboard.git

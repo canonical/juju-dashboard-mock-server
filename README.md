@@ -1,6 +1,6 @@
-## Mock API server for jaas-dashboard
+## Mock API server for Juju Dashboard
 
-To set up and start the server with:
+Set up and start the server with:
 
 ```
 make && make run
