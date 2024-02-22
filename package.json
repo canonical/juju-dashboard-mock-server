@@ -5,7 +5,7 @@
     "@types/node": "20.2.1",
     "@types/ws": "8.5.4",
     "concurrently": "8.0.1",
-    "ip": "1.1.8",
+    "ip": "1.1.9",
     "ts-node": "10.9.1",
     "typescript": "5.0.4",
     "ws": "8.13.0"
